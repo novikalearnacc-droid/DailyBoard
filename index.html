@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dailyboard - Papan Harian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Dailyboard</h1>
+    <button id="tombol-tema">ganti tema</button>
+  </header>
+
+  <!-- Kontainer Utama -->
+  <main id="app">
+    <!-- Diisi otomatis via JavaScript -->
+  </main>
+
+  <!-- Template / Form bawaan yang dipindah oleh JS -->
+  <div style="display: none;">
+    <!-- Form & Filter Tugas -->
+    <form id="form-cari-tugas">
+      <input type="text" id="cari-tugas" placeholder="Cari tugas...">
+    </form>
+    <div class="filter-wrapper">
+      <button id="semua">Semua</button>
+      <button id="belum">Belum Selesai</button>
+      <button id="selesai">Selesai</button>
+    </div>
+    <form id="form-tugas">
+      <input type="text" id="nama-tugas" placeholder="Ketik tugas baru...">
+      <button type="submit" id="tambah-tugas">Tambah Tugas</button>
+    </form>
+    <ul id="daftar-tugas"></ul>
+    
+    <div class="task-item">
+  <span>Nama Tugas</span>
+  <div class="btn-group">
+    <button class="btn-hapus">Hapus</button>
+    <button class="btn-selesai">Selesaikan</button>
+  </div>
+</div>
+
+    <!-- Form Catatan -->
+    <form id="form-catatan">
+      <textarea id="isi-catatan" placeholder="Tulis catatan..."></textarea>
+      <button type="submit" id="tambah-catatan">Tambah Catatan</button>
+    </form>
+    <div id="daftar-catatan"></div>
+
+    <!-- Kutipan & Cuaca -->
+    <p id="kutipan-harian">Memuat kutipan...</p>
+    <form id="form-cuaca">
+      <input type="text" id="nama-kota" placeholder="Masukkan nama kota...">
+      <button type="button" id="cari-kota">Cari Cuaca</button>
+    </form>
+    <div id="info-cuaca"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; DailyBoard nvksr</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
