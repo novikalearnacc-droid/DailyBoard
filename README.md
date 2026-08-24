@@ -1,8 +1,10 @@
 #fitur utama
+
 1).Manajemen Tugas: Menambahkan, menandai tugas selesai, dan menghapus tugas.
 2).Pencarian Teroptimasi (Debounce):Fitur pencarian menggunakan teknik *debounce* untuk menunda proses filter hingga pengguna selesai mengetik (menghemat memori & performa).
  
  #Cara Pakai
+ 
  1.Klik Link ( https://novikalearnacc-droid.github.io/DailyBoard/ ) 
  2 jika ingin menambahkan tugas:
     1).Masukan Nama tugas pada kolom input => "ketik tugas baru..."
