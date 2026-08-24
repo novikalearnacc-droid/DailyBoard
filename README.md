@@ -38,6 +38,7 @@
   #Struktur file
 
   DailyBoard
+  
     1). index.html          # File HTML utama aplikasi.
     2). style.css           # File stylesheet CSS untuk membuat tampilan lebih berwarna dan terstruktur.
     3).script.js            # File logika project yang berbentuk/Mmenggunakan javaScript.
