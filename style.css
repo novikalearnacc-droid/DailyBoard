@@ -192,23 +192,30 @@ ul {
 
 /* Mode Gelap (Dark Mode) */
 .dark-mode {
-  background-color: #216d17 ;
+  background-color:  #121212 ;
   color: white;
 }
-
+.dark-mode header {
+  background-color: #216d17;
+  border: 4px solid grey;
+}
 .dark-mode section { 
   background-color: #216d17;
   border-color: grey;
 }
 
 .dark-mode input, .dark-mode textarea, .dark-mode .tugas-item, .dark-mode .catatan-item {
-  background-color: #216d17;
+  background-color: #2a523e;
   color: white;
-  border-color: #444;
+  border-color: #00ff88;
 }
 
-.dark-mode h1, .dark-mode h2, .dark-mode h3 {
-  color: #1c5e02e3;
+.dark-mode h1{
+  color: #b0d8c2;
+}
+
+.dark-mode h2, .dark-mode h3 {
+  color: #00ff88;
 }
 
 /* Footer */
